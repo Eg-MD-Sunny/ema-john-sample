@@ -9,3 +9,8 @@
     gap:20px;
     margin: 20px;
 }
+.cart-container{
+    /* border-left: 2px solid rgba(255, 255, 255, 0.8); */
+    box-shadow: 0 1px 10px rgb(11,19,34);
+    padding-left: 30px;
+}

@@ -5,6 +5,7 @@ import './Shop.css';
 const Shop = () => {
 //----1.Data Load Using Local File
     const [products,setProducts] = useState([]);
+    const [cart,setCart] = useState([]);
     useEffect(()=>{
         fetch('products.json')
         .then(res=>res.json())
@@ -12,7 +13,8 @@ const Shop = () => {
     },[])
 //----1.End
     const handleAddToCart = (product) =>{
-        console.log(product)
+        const newCart = [...cart,product]
+        setCart(newCart)
     }
     return (
         <div className="shop-container">
@@ -28,8 +30,8 @@ const Shop = () => {
 {/*--2.End*/}
            </div>
            <div className="cart-container">
-                <h4>Order Summery</h4>
-                <p>Selected Item:</p>
+                <h2>Order Summery</h2>
+                <p>Selected Item: {cart.length}</p>
            </div>
         </div>
     );
