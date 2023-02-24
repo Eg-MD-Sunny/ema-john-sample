@@ -11,7 +11,7 @@ const Cart = (props) => {
         total = total + product.price;
         shipping = shipping + product.shipping;
     }
-    let tax = (total * 0.1).toFixed(2);
+    let tax = (total * 0.1).toFixed(3);
     return (
         <div className="cart">
             <h2>Order Summery</h2>
