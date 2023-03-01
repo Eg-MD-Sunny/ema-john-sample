@@ -34,7 +34,6 @@ const removeFromDb = id =>{
 
 const deleteShoppingCart = () =>{
     localStorage.removeItem('shopping-cart');
-    // localStorage.removeItem('shopping-cart');
 }
 
 export {
