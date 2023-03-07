@@ -130,19 +130,6 @@
     "quantity": 0
   },
   {
-    "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
-    "category": "Men's Pants",
-    "name": "TIRO TRACK PANTS",
-    "seller": "Addidas",
-    "price": 146,
-    "stock": 15,
-    "ratings": 5,
-    "ratingsCount": 3702,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/856e874762eb48da8e22acda00efaeb4_9366/Tiro_Track_Pants_Black_GN5490_21_model.jpg",
-    "shipping": 29,
-    "quantity": 0
-  },
-  {
     "id": "8a5b4a9c-76ea-4fbb-9c70-9548de4eab01",
     "category": "Men's Pants",
     "name": "TIRO 21 TRACK PANTS",
